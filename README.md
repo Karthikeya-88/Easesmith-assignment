@@ -1,6 +1,6 @@
 Project Overview
 
-This e-commerce website specializes in plants and pots, offering users a seamless online shopping experience. The application features multiple routes, add-to-cart functionality, header and footer components and a thank-you page for product views.
+This e-commerce website specializes in plants and pots, offering users an online shopping experience. The application features multiple routes, add-to-cart functionality, header and footer components and a thank-you page for product views.
 
 Features
 
