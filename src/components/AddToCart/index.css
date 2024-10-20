@@ -1,0 +1,90 @@
+@media screen and (max-width: 842px) {
+  .add-to-cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-size: cover;
+    color: #fff;
+    font-size: xx-small;
+    background-image: linear-gradient(
+        rgb(0, 0, 0, 0.2) 40%,
+        rgb(0, 0, 0, 0.8) 60%
+      ),
+      url("https://png.pngtree.com/thumb_back/fh260/background/20240923/pngtree-charming-and-inviting-garden-with-decorative-pots-green-grass-nursery-plants-image_16243862.jpg");
+    min-width: 600px;
+  }
+
+  .add-to-cart-product-image {
+    background-color: transparent;
+    width: 100px;
+    height: 80px;
+  }
+
+  .add-to-cart-product-title {
+    color: #fff;
+    font-size: small;
+  }
+
+  .add-to-cart-product-rating {
+    margin-left: 4px;
+  }
+
+  .confirm-order {
+    border: 2px double #fff;
+    border-radius: 10px;
+    color: rgb(242, 245, 246);
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+    padding: 6px 16px 6px 16px;
+    margin-top: 6px;
+    font-family: "Garamond";
+  }
+}
+
+@media screen and (min-width: 842px) {
+  .add-to-cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-size: cover;
+    color: #fff;
+    background-image: linear-gradient(
+        rgb(0, 0, 0, 0.2) 40%,
+        rgb(0, 0, 0, 0.8) 60%
+      ),
+      url("https://png.pngtree.com/thumb_back/fh260/background/20240923/pngtree-charming-and-inviting-garden-with-decorative-pots-green-grass-nursery-plants-image_16243862.jpg");
+  }
+
+  .add-to-cart-product-image {
+    background-color: transparent;
+    width: 200px;
+    height: 180px;
+  }
+
+  .add-to-cart-product-title {
+    color: #fff;
+    font-size: 28px;
+  }
+
+  .add-to-cart-product-rating {
+    margin-left: 10px;
+  }
+
+  .confirm-order {
+    border: 2px double #fff;
+    border-radius: 12px;
+    color: rgb(242, 245, 246);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    background: transparent;
+    padding: 12px 30px 12px 30px;
+    margin-top: 20px;
+    font-family: "Garamond";
+  }
+}

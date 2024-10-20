@@ -1,0 +1,503 @@
+@media screen and (max-width: 842px) {
+  .ultimate-pp-container {
+    padding: 20px;
+    min-width: 600px;
+  }
+
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #838383;
+    border-bottom: 2px solid #838383;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .search-icon {
+    height: 12px;
+  }
+
+  .input-element {
+    border: 0;
+    padding-left: 4px;
+    font-size: xx-small;
+  }
+
+  .search-plant-icon {
+    width: 20px;
+    height: 12px;
+  }
+
+  .plant-pot-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30px;
+  }
+
+  .plants-button {
+    background: #165315;
+    border: none;
+    color: #fff;
+    width: 84px;
+    height: 24px;
+    margin-right: 2px;
+  }
+
+  .pot-button {
+    background-color: transparent;
+    border: 1px solid #0000004d;
+    color: #0000004d;
+    width: 84px;
+    height: 24px;
+    margin-left: 2px;
+  }
+
+  .plants-description {
+    color: #838383;
+    text-align: justify;
+    font-size: 8px;
+    font-weight: 300;
+    padding: 4px 4px 12px 0px;
+  }
+
+  .slider-container {
+    margin: auto;
+    margin-bottom: 16px;
+    padding-top: 10px;
+    width: 90%;
+  }
+
+  .filter-plant-details-container {
+    display: flex;
+  }
+
+  .filters-container {
+    width: 44vw;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    color: #6e6e6e;
+    background: #f0ffe5;
+    padding: 0px 4px 0px 4px;
+    font-size: xx-small;
+  }
+
+  .filters-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-size: 8px;
+  }
+
+  .filters-horizontal {
+    width: 98%;
+  }
+
+  .remaining-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .sort-by-options {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 14px;
+    font-size: x-small;
+  }
+
+  .sortby-button {
+    background: #165315;
+    border: none;
+    color: #fff;
+    margin-left: 4px;
+    padding: 1px 14px 1px 1px;
+    font-size: 8px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .product-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    width: 70vw;
+    font-size: x-small;
+  }
+
+  .product-details {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 6px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .product-image {
+    margin: auto;
+    width: 80px;
+    height: 100px;
+  }
+
+  .view-product-button {
+    margin-top: 4px;
+    padding: 1px 8px 2px 8px;
+    text-align: center;
+    background: #165315;
+    color: #fff;
+    border: none;
+  }
+
+  .product-title {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 1px;
+  }
+
+  .product-description {
+    margin-top: 0px;
+    color: #838383;
+    margin-bottom: 1px;
+  }
+
+  .rating-scale {
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 4px;
+  }
+
+  .rating {
+    color: #a5a1a1;
+    margin-top: 2px;
+    padding-left: 4px;
+    font-size: 8px;
+    font-weight: 400;
+  }
+
+  .discount-amount-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .actual-amount {
+    text-decoration: line-through;
+    font-size: 8px;
+    font-weight: 300;
+    color: #5e5a5ab2;
+    padding-right: 4px;
+  }
+
+  .discount-amount {
+    color: #5e5a5a;
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 4px;
+  }
+
+  .add-to-cart {
+    background: #165315;
+    padding: 4px 4px 6px 4px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 400;
+    margin-right: 6px;
+    font-size: xx-small;
+  }
+
+  .buy-on-rent {
+    color: #144d14;
+    width: 84px;
+    height: 24px;
+    border-radius: 8px;
+    border: 1px solid #144d14;
+    background: transparent;
+    opacity: 0px;
+    font-size: xx-small;
+  }
+
+  .view-more-container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .view-more {
+    background: #144d14;
+    width: 100px;
+    height: 32px;
+    border: none;
+    border-radius: 16px;
+    opacity: 0px;
+    margin: auto;
+    color: #fff;
+    font-weight: 400;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 842px) {
+  .ultimate-pp-container {
+    padding: 30px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #838383;
+    border-bottom: 2px solid #838383;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .search-icon {
+    height: 22px;
+  }
+
+  .input-element {
+    border: 0;
+
+    padding-left: 8px;
+  }
+
+  .search-plant-icon {
+    width: 30px;
+    height: 22px;
+  }
+
+  .plant-pot-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 60px;
+  }
+
+  .plants-button {
+    background: #165315;
+    border: none;
+    color: #fff;
+    width: 114px;
+    height: 37px;
+    margin-right: 6px;
+  }
+
+  .pot-button {
+    background-color: transparent;
+    border: 1px solid #0000004d;
+    color: #0000004d;
+    width: 114px;
+    height: 37px;
+    margin-left: 4px;
+  }
+
+  .plants-description {
+    color: #838383;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 10px 20px 0px;
+  }
+
+  .slider-container {
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    width: 92%;
+  }
+
+  .filter-plant-details-container {
+    display: flex;
+  }
+
+  .filters-container {
+    width: 30vw;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #6e6e6e;
+    background: #f0ffe5;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .filters-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-weight: 550;
+    font-size: 16px;
+  }
+
+  .filters-horizontal {
+    width: 95%;
+  }
+
+  .remaining-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .sort-by-options {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 24px;
+  }
+
+  .sortby-button {
+    background: #165315;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+    padding: 2px 28px 2px 2px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .product-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 68vw;
+  }
+
+  .product-details {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 4px;
+    margin-left: 4px;
+    margin-bottom: 40px;
+  }
+
+  .product-image {
+    width: 240px;
+    height: 246px;
+  }
+
+  .view-product-button {
+    margin-top: 10px;
+    padding: 2px 16px 5px 16px;
+    text-align: center;
+    background: #165315;
+    color: #fff;
+    border: none;
+  }
+
+  .product-title {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 2px;
+  }
+
+  .product-description {
+    margin-top: 0px;
+    color: #838383;
+    margin-bottom: 2px;
+  }
+
+  .rating-scale {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+
+  .rating {
+    color: #a5a1a1;
+    margin-top: 4px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .discount-amount-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .actual-amount {
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5e5a5ab2;
+    padding-right: 8px;
+  }
+
+  .discount-amount {
+    color: #5e5a5a;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 8px;
+  }
+
+  .add-to-cart {
+    background: #165315;
+    padding: 8px 8px 10px 8px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  .buy-on-rent {
+    color: #144d14;
+    width: 114px;
+    height: 37px;
+    border-radius: 10px;
+    border: 1px solid #144d14;
+    background: transparent;
+    opacity: 0px;
+  }
+
+  .view-more-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .view-more {
+    background: #144d14;
+    width: 175px;
+    height: 43px;
+    border: none;
+    border-radius: 30px;
+    opacity: 0px;
+    margin: auto;
+    color: #fff;
+    font-weight: 600;
+    align-self: center;
+  }
+}

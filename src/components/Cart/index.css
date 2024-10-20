@@ -1,0 +1,78 @@
+@media screen and (max-width: 842px) {
+  .cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    background-image: url("https://res.cloudinary.com/dnmyyqfhs/image/upload/v1729305702/Ellipse_41_g1bsl6.png");
+    background-position: -10px -10px;
+    background-size: cover;
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: x-small;
+    min-width: 600px;
+  }
+
+  .cart-horizontal-line {
+    border: 0.8px solid #b0b0b0;
+    width: 80%;
+  }
+
+  .cart-greetings {
+    text-align: center;
+    color: #165315;
+  }
+
+  .cart-description {
+    text-align: center;
+    color: #165315;
+  }
+
+  .cart-button {
+    background: #165315;
+    color: #fff;
+    padding: 1px 14px 4px 14px;
+    text-decoration: none;
+    margin-top: 6px;
+    border: 0;
+    font-size: x-small;
+  }
+}
+
+@media screen and (min-width: 842px) {
+  .cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    background-image: url("https://res.cloudinary.com/dnmyyqfhs/image/upload/v1729305702/Ellipse_41_g1bsl6.png");
+    background-position: -10px -10px;
+    background-size: cover;
+    margin-bottom: 80px;
+  }
+
+  .cart-horizontal-line {
+    border: 0.8px solid #b0b0b0;
+    width: 80%;
+  }
+
+  .cart-greetings {
+    text-align: center;
+    color: #165315;
+  }
+
+  .cart-description {
+    text-align: center;
+    color: #165315;
+  }
+
+  .cart-button {
+    background: #165315;
+    color: #fff;
+    padding: 2px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 0;
+  }
+}

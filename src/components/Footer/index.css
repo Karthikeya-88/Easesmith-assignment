@@ -1,0 +1,205 @@
+h3 {
+  color: #000000;
+}
+
+@media screen and (max-width: 912px) {
+  .ultimate-footer {
+    background: #f0ffe5;
+    padding: 16px 28px 16px 28px;
+    margin-top: 4px;
+    min-width: 600px;
+  }
+
+  .footer-first-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: x-small;
+    padding-top: 6px;
+    color: #838383;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .subscibe-newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 28%;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    padding-left: 0px;
+  }
+
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: center;
+    width: fit-content;
+    flex-wrap: wrap;
+    padding-right: 10px;
+  }
+
+  .get-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 28%;
+    flex-wrap: wrap;
+    padding-right: 0px;
+  }
+
+  .email-input {
+    font-size: xx-small;
+  }
+
+  .subscribe-button {
+    width: 72px;
+    height: 22px;
+    background: #247822;
+    border-radius: 16px;
+    border: none;
+    color: #fff;
+    margin-top: 4px;
+    font-size: xx-small;
+  }
+
+  .company-details-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 100%;
+    font-size: xx-small;
+  }
+
+  .follow-us-social {
+    width: 120px;
+    height: 16px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .social-media-icons {
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 2px;
+    width: 20px;
+    height: 12px;
+  }
+
+  .company-description {
+    color: #838383;
+    text-align: justify;
+  }
+
+  .copyrights-contiainer {
+    color: #838383;
+    font-family: Poppins;
+    font-size: 8px;
+    font-weight: 400;
+
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 912px) {
+  .ultimate-footer {
+    background: #f0ffe5;
+    padding: 20px 40px 20px 40px;
+    margin-top: 10px;
+  }
+
+  .footer-first-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: smaller;
+    padding-top: 10px;
+    color: #838383;
+  }
+
+  .subscibe-newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 28%;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    padding-left: 0px;
+  }
+
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: center;
+    width: 28%;
+    flex-wrap: wrap;
+    padding-right: 20px;
+  }
+
+  .get-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 28%;
+    flex-wrap: wrap;
+    padding-right: 0px;
+  }
+
+  .subscribe-button {
+    width: 130px;
+    height: 35px;
+    background: #247822;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .company-details-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+    font-size: small;
+  }
+
+  .follow-us-social {
+    width: 220px;
+    height: 32px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .social-media-icons {
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 4px;
+    width: 40px;
+    height: 24px;
+  }
+
+  .company-description {
+    color: #838383;
+    text-align: justify;
+  }
+
+  .copyrights-contiainer {
+    color: #838383;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+  }
+}
